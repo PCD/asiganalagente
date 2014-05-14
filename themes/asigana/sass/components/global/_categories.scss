@@ -1,0 +1,35 @@
+#block-views-categories-block{
+  width: $normal_width;
+  margin: 40px auto 0;
+  .field--name-field-image-single{
+    width: 69px;
+    height: 69px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .field--name-title h3{
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    a{
+      text-transform: uppercase;
+      color :white;
+      text-decoration: none;
+      display: block;
+    }
+  }
+  .views-row{
+    text-align: center;
+    width: 85px;
+    float: left;
+    margin-right: 24px;
+  }
+  .views-row.views-row-last{
+    margin-right: 0;
+  }
+  .view-content:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
