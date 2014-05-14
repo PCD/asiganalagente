@@ -1,0 +1,13 @@
+.l-footer{
+  height: 314px;
+  background: #CF1D1B url(../images/footer-bg.png) repeat-x;
+  padding-top: 25px;
+}
+.l-region--footer{
+  width: $normal_width;
+  margin: 0 auto;
+  min-height: 84px;
+  height: auto !important;
+  height: 84px;
+  background: url(../images/logo-footer.png) no-repeat;
+}

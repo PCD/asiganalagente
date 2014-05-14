@@ -1,0 +1,36 @@
+#block-menu-menu-social{
+  padding-top: 25px;
+  ul.menu, 
+  ul.menu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  ul.menu{
+    text-align: right;
+  }
+  ul.menu li{
+    text-align: left;
+    display: inline-block;
+    margin-right: 12px;
+  }
+  ul.menu li.last{
+    margin-right: 0;
+  }
+  ul.menu li a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+    text-indent: -9999px;
+  }
+  #facebook{
+    background: url(../images/facebook.png) no-repeat;
+  }
+  #twitter{
+    background: url(../images/twitter.png) no-repeat;
+  }
+  #youtube{
+    background: url(../images/youtube.png) no-repeat;
+  }
+}

@@ -1,4 +1,33 @@
 .l-region--navigation{
   float: right;
   width: 603px;
+  margin-top: 35px;
+  ul.menu, 
+  ul.menu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  ul.menu{
+    text-align: right;
+  }
+  ul.menu li{
+    text-align: left;
+    padding: 0 20px;
+    border-right: 1px white solid;
+    display: inline-block;
+    a{
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+  }
+  ul.menu li.first{
+    padding-left: 0;
+  }
+  ul.menu li.last{
+    padding-right: 0;
+    border-right: none;
+  }
 }
