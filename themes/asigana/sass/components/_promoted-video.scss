@@ -1,0 +1,38 @@
+#block-views-promoted-video-block{
+  h2{
+    margin-top: 0;
+  }
+  h2 a{
+    color: #CD2024;
+    text-decoration: none;
+  }
+  h2 a:hover{
+    text-decoration: underline;
+  }
+  .field--name-body{
+    font-size: 13px;
+    color: #31313F;
+  }
+  .field--name-field-category{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .field--name-field-category a{
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 15px 26px;
+    background: #CD2024;
+    border-radius: 12px 12px 12px 12px;
+  }
+  .group-left{
+    width: 480px;
+    padding-right: 20px;
+  }
+  .group-right{
+    width: 480px;
+  }
+}

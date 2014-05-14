@@ -1,0 +1,12 @@
+.l-main{
+  background: #ECECFB;
+}
+.l-main-inner{
+  width: $normal_width;
+  margin: 0 auto;
+}
+.l-main-inner:after{
+  content: "";
+  display: table;
+  clear: both;
+}
