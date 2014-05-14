@@ -1,0 +1,10 @@
+.pager{
+  .pager__item,
+  .pager__item a{
+    color: #CD2024;
+    text-decoration: none;
+  }
+  .pager__item a:hover{
+    text-decoration: underline;
+  }
+}
