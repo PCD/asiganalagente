@@ -204,16 +204,24 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_header\.scss}line{font-family:\000031}}
 .l-header {
   position: relative;
+  padding-bottom: 139px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_header\.scss}line{font-family:\000035}}
+.front .l-header {
   padding-bottom: 642px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_highlightning\.scss}line{font-family:\000031}}
 .l-region--highlighted {
   background: #cf1d1b url(../images/highlightning-bg.png) repeat-x 0 bottom;
-  height: 652px;
+  height: 169px;
   position: absolute;
   top: 107px;
   left: 0;
   right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_highlightning\.scss}line{font-family:\000039}}
+.front .l-region--highlighted {
+  height: 652px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_layout\.scss}line{font-family:\000031}}
 .l-branding-inner {
