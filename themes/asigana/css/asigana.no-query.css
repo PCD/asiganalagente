@@ -140,6 +140,10 @@ body {
   width: 960px;
   margin: 20px auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_breadcrumb\.scss}line{font-family:\000031}}
+.breadcrumb {
+  display: none; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_categories\.scss}line{font-family:\000031}}
 #block-views-categories-block {
   width: 960px;
@@ -198,11 +202,18 @@ body {
     #block-views-categories-block .views-row.hover .field--name-field-image-single a img {
       top: -65px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_categories\.scss}line{font-family:\0000359}}
+.l-content .field--name-field-category {
+  margin: 20px 0; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_content\.scss}line{font-family:\000031}}
 .l-content {
   width: 640px;
   float: left;
   padding: 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_content\.scss}line{font-family:\000035}}
+  .l-content h1 {
+    margin-top: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/global\/_fb-like-box\.scss}line{font-family:\000031}}
 #block-block-1 {
@@ -368,6 +379,15 @@ ul.tabs.links--inline {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_article\.scss}line{font-family:\000037}}
 .node--article--full .field--name-field-category {
   clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_galeria\.scss}line{font-family:\000032}}
+.node--galeria--full .field--name-field-image .field__item {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_galeria\.scss}line{font-family:\000037}}
+.node--galeria--full .field--name-field-image .field__item.fourth {
+  margin-right: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_listing-nodes\.scss}line{font-family:\000032}}
 .l-content .node.node-teaser {
