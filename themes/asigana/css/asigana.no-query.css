@@ -360,6 +360,15 @@ ul.tabs.links--inline {
     display: inline-block;
     text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_article\.scss}line{font-family:\000032}}
+.node--article--full .field--name-field-image:after {
+  clear: both;
+  display: table;
+  content: ""; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_article\.scss}line{font-family:\000037}}
+.node--article--full .field--name-field-category {
+  clear: both; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_listing-nodes\.scss}line{font-family:\000032}}
 .l-content .node.node-teaser {
   margin-bottom: 40px; }

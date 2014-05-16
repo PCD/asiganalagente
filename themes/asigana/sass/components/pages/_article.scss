@@ -1,0 +1,10 @@
+.node--article--full{
+  .field--name-field-image:after{
+    clear: both;
+    display: table;
+    content: "";
+  }
+  .field--name-field-category{
+    clear: both;
+  }
+}
