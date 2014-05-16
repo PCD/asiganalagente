@@ -382,3 +382,10 @@ ul.tabs.links--inline {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_listing-nodes\.scss}line{font-family:\0000320}}
   .l-content .group-right h3 a:hover {
     text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_nodes\.scss}line{font-family:\000032}}
+.field--name-body ul {
+  padding: 0 0 0 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_nodes\.scss}line{font-family:\000035}}
+.field--name-body ul li {
+  list-style-image: url(../images/check.png); }
