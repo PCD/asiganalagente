@@ -2,15 +2,30 @@
   width: $normal_width;
   margin: 40px auto 0;
   .field--name-field-image-single{
-    width: 69px;
-    height: 69px;
+    width: 64px;
+    height: 64px;
     overflow: hidden;
     display: inline-block;
+    a{
+      display: block;
+      position: relative;
+      width: 64px;
+      height: 64px;
+    }
+    a img{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    a:hover img{
+      top: -65px;
+    }
   }
   .field--name-title h3{
     font-size: 13px;
     font-weight: normal;
     text-align: center;
+    margin: 0;
     a{
       text-transform: uppercase;
       color :white;
@@ -20,9 +35,9 @@
   }
   .views-row{
     text-align: center;
-    width: 85px;
+    width: 96px;
     float: left;
-    margin-right: 24px;
+    margin-right: 0;
   }
   .views-row.views-row-last{
     margin-right: 0;
@@ -31,5 +46,11 @@
     content: "";
     display: block;
     clear: both;
+  }
+  .views-row.hover{
+    cursor: pointer;
+    .field--name-field-image-single a img{
+      top: -65px;
+    }
   }
 }
