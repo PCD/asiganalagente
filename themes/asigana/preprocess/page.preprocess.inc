@@ -12,13 +12,14 @@ function asigana_preprocess_page(&$vars) {
  */
 function asigana_preprocess_page_node(&$vars) {
   if ( arg(0) == 'node' && intval(arg(1)) > 0 && is_null(arg(2)) ) {
-    $types = array('article', 'video');
+    $types = array('article', 'video', 'galeria');
     if ( ($node = node_load(arg(1))) && (in_array($node->type, $types)) ) {
-      $vars['theme_hook_suggestions'][] = 'page__node__article';
+      $vars['theme_hook_suggestions'][] = 'page__node__' . $node->type;
       $date = format_date($node->created, 'article');
       $vars['date'] = "<div class=\"node-date\">{$date}</div>";
       $node_url = url('node/' . arg(1), array('absolute'=>TRUE));
       $vars['social_buttons'] = asigana_social_buttons($node_url);
+      $vars['chino'] = 'que onda';
     }
   }
 }

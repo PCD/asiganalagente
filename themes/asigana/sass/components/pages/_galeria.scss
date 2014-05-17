@@ -1,10 +1,12 @@
 .node--galeria--full{
   .field--name-field-image .field__item{
     float: left;
+    width: 120px;
+    height: 120px;
     margin-right: 10px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
-  .field--name-field-image .field__item.fourth{
+  .field--name-field-image .field__item.fifth{
     margin-right: 0;
   }
 }

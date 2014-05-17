@@ -18,6 +18,7 @@ stylesheets[all][] = css/asigana.no-query.css
 ; ========================================
 scripts[] = js/asigana.behaviors.js
 scripts[] = js/asigana.categories.js
+scripts[] = js/asigana.galeria.js
 
 ; ========================================
 ; Regions

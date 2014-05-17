@@ -383,10 +383,12 @@ ul.tabs.links--inline {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_galeria\.scss}line{font-family:\000032}}
 .node--galeria--full .field--name-field-image .field__item {
   float: left;
+  width: 120px;
+  height: 120px;
   margin-right: 10px;
-  margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_galeria\.scss}line{font-family:\000037}}
-.node--galeria--full .field--name-field-image .field__item.fourth {
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_galeria\.scss}line{font-family:\000039}}
+.node--galeria--full .field--name-field-image .field__item.fifth {
   margin-right: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_listing-nodes\.scss}line{font-family:\000032}}
