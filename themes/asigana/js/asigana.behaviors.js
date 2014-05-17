@@ -4,6 +4,8 @@
       current_text = $('#block-views-promoted-video-block .field--name-field-category a').text();
       new_text = 'Ver Más de ' + current_text;
       $('#block-views-promoted-video-block .field--name-field-category a').text(new_text);
+      
+      $('#block-block-1 .block__content').before('<p>Visita el Facebook de la Alianza por el Bien de Nayarit</p>');
     }
   };
   
