@@ -401,6 +401,10 @@ ul.tabs.links--inline {
 .node--galeria--full .field--name-field-image .field__item.fifth {
   margin-right: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_galeria\.scss}line{font-family:\0000313}}
+.field--name-field-candidato .field__item {
+  cursor: pointer; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.asiganalagente\.com\/themes\/asigana\/sass\/components\/pages\/_listing-nodes\.scss}line{font-family:\000032}}
 .l-content .node.node-teaser {
   margin-bottom: 40px; }

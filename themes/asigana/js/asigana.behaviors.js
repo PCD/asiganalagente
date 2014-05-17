@@ -2,8 +2,8 @@
   Drupal.behaviors.promotedVideo = {
     attach: function (context, settings) {
       current_text = $('#block-views-promoted-video-block .field--name-field-category a').text();
-      new_text = 'Ver Más ' + current_text;
-      //$('#block-views-promoted-video-block .field--name-field-category a').text(new_text);
+      new_text = 'Ver Más de ' + current_text;
+      $('#block-views-promoted-video-block .field--name-field-category a').text(new_text);
     }
   };
   
