@@ -11,5 +11,20 @@
   .field--name-field-image-single{
     height: 402px;
     overflow: hidden;
+    a{
+      display: block;
+    }
+    img{
+      max-width: none;
+      width: 100%;
+      min-width: 1445px;
+      height: auto;
+    }
+  }
+  .views_slideshow_cycle_teaser_section{
+    width: 100% !important;
+    .views-slideshow-cycle-main-frame-row{
+      width: 100% !important;
+    }
   }
 }
